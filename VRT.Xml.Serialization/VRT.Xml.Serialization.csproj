@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net472;netstandard2.0</TargetFrameworks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net472|AnyCPU'">
+    <DocumentationFile>e:\Projects\Common\Xml\VRT.Xml\VRT.Xml.Serialization\VRT.Xml.Serialization.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net472|AnyCPU'">
+    <DocumentationFile>e:\Projects\Common\Xml\VRT.Xml\VRT.Xml.Serialization\VRT.Xml.Serialization.xml</DocumentationFile>
+  </PropertyGroup>
+</Project>

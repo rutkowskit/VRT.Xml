@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VRT.Xml.Serialization</name>
+    </assembly>
+    <members>
+        <member name="T:VRT.Xml.Serialization.CachingXmlSerializerFactory">
+            <summary>
+                A caching factory to avoid memory leaks in the XmlSerializer class.
+            See http://dotnetcodebox.blogspot.dk/2013/01/xmlserializer-class-may-result-in.html
+            </summary>
+        </member>
+        <member name="T:VRT.Xml.Serialization.Handlers.IExceptionHandler">
+            <summary>
+            Serialization exception handler
+            </summary>
+        </member>
+        <member name="M:VRT.Xml.Serialization.Handlers.IExceptionHandler.Handle(System.Exception)">
+            <summary>
+            Exception handler
+            </summary>
+            <param name="ex">Exception to be handled</param>
+            <returns>Should return true if exception was handled, otherwise false</returns>
+        </member>
+        <member name="T:VRT.Xml.Serialization.Handlers.ExceptionHandler">
+            <summary>
+            Default serialization exception handler
+            </summary>
+        </member>
+        <member name="M:VRT.Xml.Serialization.Handlers.ExceptionHandler.Handle(System.Exception)">
+            <inheritdoc/>
+        </member>
+        <member name="T:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces">
+            <summary>
+            XmlTextReader with abitlity to ignore or change xml namespaces
+            </summary>
+        </member>
+        <member name="M:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.#ctor(System.IO.Stream)">
+            <inheritdoc/>
+        </member>
+        <member name="M:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.#ctor(System.IO.TextReader)">
+            <inheritdoc/>
+        </member>
+        <member name="M:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.OverrideNamespace(System.String)">
+            <summary>
+            Sets default namespace to override during read
+            </summary>
+            <param name="namespaceUri">Namespace uri</param>
+            <returns>Object instance</returns>
+        </member>
+        <member name="M:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.AddNamespaceUriOverride(System.String,System.String)">
+            <summary>
+            Adds additional internal namespace uri to override during read
+            </summary>
+            <param name="srcNamespaceUri">Namespace URI in source xml</param>
+            <param name="dstNamespaceUri">Namespace URI in destination model</param>
+            <returns>Object instance</returns>
+        </member>
+        <member name="P:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.Name">
+            <inheritdoc/>
+        </member>
+        <member name="P:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.NamespaceURI">
+            <inheritdoc/>
+        </member>
+        <member name="P:VRT.Xml.Serialization.IO.XmlReaderNoNamespaces.Prefix">
+            <inheritdoc/>
+        </member>
+        <member name="T:VRT.Xml.Serialization.ObjectExtensions">
+            <summary>
+            Extends reference type object with xml serialization ability
+            </summary>
+        </member>
+        <member name="M:VRT.Xml.Serialization.StringExtensions.ChangeXmlEncoding(System.String,System.Text.Encoding)">
+            <summary>
+            Changes xml encoding
+            </summary>
+            <param name="xml">Xml text</param>
+            <param name="dstEncoding">Destination encoding</param>
+            <returns>Xml with changed encoding</returns>
+        </member>
+    </members>
+</doc>

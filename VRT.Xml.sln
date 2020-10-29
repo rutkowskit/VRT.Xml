@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VRT.Xml.Xades", "VRT.Xml.Xades\VRT.Xml.Xades.csproj", "{EE2D2A2A-B020-4CF6-92D9-850FE462BE7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Xades", "Microsoft.Xades\Microsoft.Xades.csproj", "{02802BE5-8C6B-4A4B-9EA0-022E9AD92F26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRT.Xml.Xades.Tests.Unit", "VRT.Xml.Xades.Tests.Unit\VRT.Xml.Xades.Tests.Unit.csproj", "{D493A75C-2722-4F83-AC6F-008EEE44B0FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Xades", "01.Xades", "{B44ED9C6-E631-4AE2-BA11-38A40E6766A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRT.Xml.Serialization", "VRT.Xml.Serialization\VRT.Xml.Serialization.csproj", "{B18DB142-8A68-4E90-B548-9EAC378D32DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Serialization", "02.Serialization", "{002E917B-F0CC-4AE7-A5C3-5A3A440A3C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRT.Xml.Serialization.Tests.Unit", "VRT.Xml.Serialization.Tests.Unit\VRT.Xml.Serialization.Tests.Unit.csproj", "{B8524304-2376-4C21-AD1A-BDC7C5CA4554}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2D2A2A-B020-4CF6-92D9-850FE462BE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2D2A2A-B020-4CF6-92D9-850FE462BE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2D2A2A-B020-4CF6-92D9-850FE462BE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2D2A2A-B020-4CF6-92D9-850FE462BE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02802BE5-8C6B-4A4B-9EA0-022E9AD92F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02802BE5-8C6B-4A4B-9EA0-022E9AD92F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02802BE5-8C6B-4A4B-9EA0-022E9AD92F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02802BE5-8C6B-4A4B-9EA0-022E9AD92F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D493A75C-2722-4F83-AC6F-008EEE44B0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D493A75C-2722-4F83-AC6F-008EEE44B0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D493A75C-2722-4F83-AC6F-008EEE44B0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D493A75C-2722-4F83-AC6F-008EEE44B0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B18DB142-8A68-4E90-B548-9EAC378D32DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B18DB142-8A68-4E90-B548-9EAC378D32DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B18DB142-8A68-4E90-B548-9EAC378D32DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B18DB142-8A68-4E90-B548-9EAC378D32DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8524304-2376-4C21-AD1A-BDC7C5CA4554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8524304-2376-4C21-AD1A-BDC7C5CA4554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8524304-2376-4C21-AD1A-BDC7C5CA4554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8524304-2376-4C21-AD1A-BDC7C5CA4554}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE2D2A2A-B020-4CF6-92D9-850FE462BE7B} = {B44ED9C6-E631-4AE2-BA11-38A40E6766A0}
+		{02802BE5-8C6B-4A4B-9EA0-022E9AD92F26} = {B44ED9C6-E631-4AE2-BA11-38A40E6766A0}
+		{D493A75C-2722-4F83-AC6F-008EEE44B0FB} = {B44ED9C6-E631-4AE2-BA11-38A40E6766A0}
+		{B18DB142-8A68-4E90-B548-9EAC378D32DB} = {002E917B-F0CC-4AE7-A5C3-5A3A440A3C8A}
+		{B8524304-2376-4C21-AD1A-BDC7C5CA4554} = {002E917B-F0CC-4AE7-A5C3-5A3A440A3C8A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34E909EC-B1A4-47CA-98CB-F1337ECE4725}
+	EndGlobalSection
+EndGlobal
